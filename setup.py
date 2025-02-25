@@ -17,7 +17,7 @@ G_network_mask          :str = ''
 G_gateway               :str = ''
 
 G_create_docker_network :bool = False
-G_docker_network_name   :str  = 'workstations_network'
+G_docker_network_name   :str  = 'ipvlan_network'
 
 
 def cmd(cmd:str, print_log:bool) -> str:
